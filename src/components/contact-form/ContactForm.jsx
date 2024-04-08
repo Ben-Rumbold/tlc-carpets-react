@@ -19,6 +19,7 @@ const ContactForm = ({ children, formName }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSent(!isSent);
+    console.log("form submitted");
   };
 
   return (
@@ -26,7 +27,7 @@ const ContactForm = ({ children, formName }) => {
       <form
         name={formName}
         method="post"
-        netlify
+        data-netlify="true"
         className={`contact-form inner-container ${isSent && "sent"}`}
         onSubmit={handleSubmit}
       >
