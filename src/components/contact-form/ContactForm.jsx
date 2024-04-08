@@ -26,7 +26,7 @@ const ContactForm = ({ children, formName }) => {
     <FadeIn>
       <form
         name={formName}
-        method="post"
+        method="POST"
         data-netlify="true"
         className={`contact-form inner-container ${isSent && "sent"}`}
         onSubmit={handleSubmit}
