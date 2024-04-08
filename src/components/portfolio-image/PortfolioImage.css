@@ -1,0 +1,23 @@
+.portfolio-image-container {
+  /* width: 100%; */
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  box-shadow: 0px 4px 2px rgb(150, 150, 150);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.fade-in .portfolio-image-container {
+  opacity: 1;
+}
+
+.portfolio-image-container img {
+  /* height: 100%; */
+  width: 105%;
+  object-fit: cover;
+}
+.portfolio-image-container img:hover {
+  cursor: pointer;
+}

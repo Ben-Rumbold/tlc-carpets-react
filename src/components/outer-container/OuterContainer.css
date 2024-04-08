@@ -1,0 +1,30 @@
+/* ----- outer-container ----- */
+.outer-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  position: relative;
+  z-index: 94;
+}
+
+.popup-visible {
+  z-index: 96;
+}
+
+@media only screen and (max-width: 700px) {
+  .outer-container {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .outer-container {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .outer-container {
+    width: 90%;
+  }
+}

@@ -1,0 +1,27 @@
+.testimony-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5em;
+  align-content: start;
+  align-items: stretch; /* Added property */
+}
+
+@media only screen and (max-width: 1000px) {
+  .testimony-container {
+    gap: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .testimony-container {
+    grid-template-columns: 1fr 1fr;
+    /* gap: 1em; */
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .testimony-container {
+    grid-template-columns: 1fr;
+    gap: 1.2em;
+  }
+}

@@ -1,0 +1,307 @@
+ {
+    "Naturals": [
+        {
+            "id": 1,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-1.webp"
+        },
+        {
+            "id": 2,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-2.webp"
+        },
+        {
+            "id": 3,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-3.webp"
+        },
+        {
+            "id": 4,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-4.webp"
+        },
+        {
+            "id": 5,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-5.webp"
+        },
+        {
+            "id": 6,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-6.webp"
+        },
+        {
+            "id": 7,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-7.webp"
+        },
+        {
+            "id": 8,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-8.webp"
+        },
+        {
+            "id": 9,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-9.webp"
+        },
+        {
+            "id": 10,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-10.webp"
+        },
+        {
+            "id": 11,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-11.webp"
+        },
+        {
+            "id": 12,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-12.webp"
+        },
+        {
+            "id": 13,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-13.webp"
+        },
+        {
+            "id": 14,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-14.webp"
+        },
+        {
+            "id": 15,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-15.webp"
+        },
+        {
+            "id": 16,
+            "category": "Naturals",
+            "image": "./assets/images/naturals/naturals-16.webp"
+        }
+    ],
+    "Flatweaves": [
+        {
+            "id": 1,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-1.webp"
+        },
+        {
+            "id": 2,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-2.webp"
+        },
+        {
+            "id": 3,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-3.webp"
+        },
+        {
+            "id": 4,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-4.webp"
+        },
+        {
+            "id": 5,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-5.webp"
+        },
+        {
+            "id": 6,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-6.webp"
+        },
+        {
+            "id": 7,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-7.webp"
+        },
+        {
+            "id": 8,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-8.webp"
+        },
+        {
+            "id": 9,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-9.webp"
+        },
+        {
+            "id": 10,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-10.webp"
+        },
+        {
+            "id": 11,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-11.webp"
+        },
+        {
+            "id": 12,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-12.webp"
+        },
+        {
+            "id": 13,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-13.webp"
+        },
+        {
+            "id": 14,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-14.webp"
+        },
+        {
+            "id": 15,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-15.webp"
+        },
+        {
+            "id": 16,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-16.webp"
+        },
+        {
+            "id": 17,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-17.webp"
+        },
+        {
+            "id": 18,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-18.webp"
+        },
+        {
+            "id": 19,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-19.webp"
+        },
+        {
+            "id": 20,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-20.webp"
+        },
+        {
+            "id": 21,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-21.webp"
+        },
+        {
+            "id": 22,
+            "category": "Flatweaves",
+            "image": "./assets/images/flatweaves/flatweave-22.webp"
+        }
+    ],
+    "Patterned": [
+        {
+            "id": 1,
+            "category": "Patterned",
+            "image": "./assets/images/patterned/patterned-1.webp"
+        },
+        {
+            "id": 2,
+            "category": "Patterned",
+            "image": "./assets/images/patterned/patterned-2.webp"
+        },
+        {
+            "id": 3,
+            "category": "Patterned",
+            "image": "./assets/images/patterned/patterned-3.webp"
+        },
+        {
+            "id": 4,
+            "category": "Patterned",
+            "image": "./assets/images/patterned/patterned-4.webp"
+        },
+        {
+            "id": 5,
+            "category": "Patterned",
+            "image": "./assets/images/patterned/patterned-5.webp"
+        },
+        {
+            "id": 6,
+            "category": "Patterned",
+            "image": "./assets/images/patterned/patterned-6.webp"
+        },
+        {
+            "id": 7,
+            "category": "Patterned",
+            "image": "./assets/images/patterned/patterned-7.webp"
+        },
+        {
+            "id": 8,
+            "category": "Patterned",
+            "image": "./assets/images/patterned/patterned-8.webp"
+        }
+    ],
+    "Striped": [
+        {
+            "id": 1,
+            "category": "Striped",
+            "image": "./assets/images/striped/striped-1.webp"
+        },
+        {
+            "id": 2,
+            "category": "Striped",
+            "image": "./assets/images/striped/striped-2.webp"
+        },
+        {
+            "id": 3,
+            "category": "Striped",
+            "image": "./assets/images/striped/striped-3.webp"
+        },
+        {
+            "id": 4,
+            "category": "Striped",
+            "image": "./assets/images/striped/striped-4.webp"
+        },
+        {
+            "id": 5,
+            "category": "Striped",
+            "image": "./assets/images/striped/striped-5.webp"
+        },
+        {
+            "id": 6,
+            "category": "Striped",
+            "image": "./assets/images/striped/striped-6.webp"
+        },
+        {
+            "id": 7,
+            "category": "Striped",
+            "image": "./assets/images/striped/striped-7.webp"
+        },
+        {
+            "id": 8,
+            "category": "Striped",
+            "image": "./assets/images/striped/striped-8.webp"
+        }
+    ],
+    "Silk": [
+        {
+            "id": 1,
+            "category": "Silk",
+            "image": "./assets/images/silk/silk-1.webp"
+        },
+        {
+            "id": 2,
+            "category": "Silk",
+            "image": "./assets/images/silk/silk-2.webp"
+        },
+        {
+            "id": 3,
+            "category": "Silk",
+            "image": "./assets/images/silk/silk-3.webp"
+        },
+        {
+            "id": 4,
+            "category": "Silk",
+            "image": "./assets/images/silk/silk-4.webp"
+        },
+        {
+            "id": 5,
+            "category": "Silk",
+            "image": "./assets/images/silk/silk-5.webp"
+        }
+    ]
+}

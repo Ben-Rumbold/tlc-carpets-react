@@ -1,0 +1,22 @@
+.hero-container {
+  width: 100%;
+  /* height: clamp(1px, 50vh, 400px); */
+  height: 400px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.hero-image {
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .hero-container {
+    /* height: clamp(1px, 60vh, 400px); */
+    height: 300px;
+  }
+  .hero-image {
+    height: 100%;
+    object-fit: cover;
+  }
+}

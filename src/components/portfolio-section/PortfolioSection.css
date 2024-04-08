@@ -1,0 +1,25 @@
+.portfolio-section-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5em;
+  align-content: start;
+}
+
+@media only screen and (max-width: 1000px) {
+  .portfolio-section-container {
+    gap: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .portfolio-section-container {
+    gap: 1em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .portfolio-section-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2em;
+  }
+}

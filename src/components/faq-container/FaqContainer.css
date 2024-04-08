@@ -1,0 +1,20 @@
+.faq-container {
+  position: relative;
+  margin: 0 auto 60px auto;
+  width: 100%;
+}
+@media only screen and (max-width: 700px) {
+  .faq-container {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .faq-container {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .faq-container {
+    width: 90%;
+  }
+}

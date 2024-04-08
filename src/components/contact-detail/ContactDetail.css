@@ -1,0 +1,77 @@
+:root {
+  --contact-detail-width: clamp(40px, 8vw, 80px); /* Global scope */
+}
+
+.contact-detail-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.fade-in .contact-detail-wrapper {
+  opacity: 1;
+}
+
+.contact-detail {
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--contact-detail-width);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  z-index: 2;
+}
+.contact-detail img {
+  width: clamp(15px, 2.5vw, 30px);
+}
+
+.contact-detail-expanded {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  z-index: 1;
+  margin-left: calc((var(--contact-detail-width) / 2) * -1);
+  width: calc(var(--contact-detail-width) * 2.5);
+  transition: all 0.5s ease-in-out;
+}
+.contact-detail-expanded.show {
+  width: 0;
+}
+.contact-detail-expanded-body {
+  background-image: linear-gradient(
+    to left,
+    rgb(235, 235, 235),
+    rgb(247, 247, 247)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(var(--contact-detail-width) * 2);
+  aspect-ratio: 2 / 1;
+  transition: all 0.5s ease-in-out;
+  z-index: 2;
+}
+.contact-text-container {
+  margin-left: 40%;
+  width: 100%;
+}
+.contact-link,
+.contact-text {
+  text-align: center;
+  line-height: 1.2;
+}
+.contact-text {
+  font-size: clamp(10px, 2vw, 17px);
+  color: black;
+}
+.contact-detail-expanded-circle {
+  background-color: rgb(235, 235, 235);
+  width: var(--contact-detail-width);
+  aspect-ratio: 1 / 1;
+  margin-left: calc((var(--contact-detail-width) / 2) * -1);
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}

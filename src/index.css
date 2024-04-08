@@ -1,68 +1,191 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
+/* ----- css reset ----- */
+*,
+*::before,
+*::after {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* ----- general/ all ----- */
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* ::selection {
+  background-color: #000000;
+  color: #ffffff;
+}
+::-moz-selection {
+  background-color: #000000;
+  color: #ffffff;
+} */
+::-webkit-scrollbar {
+  width: clamp(8px, 1vw, 15px);
+}
+::-webkit-scrollbar-track {
+  background: rgb(240, 240, 240);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0, 0.2);
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 0, 0, 0.3);
+}
+
+/* ----- background ----- */
+/* body {
+  background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 20px,
+      #f9f9f9 20px,
+      #f9f9f9 21px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 20px,
+      #f9f9f9 20px,
+      #f9f9f9 21px
+    );
+  background-size: 40px 40px;
+  width: 100%;
+  height: auto;
+} */
+
+/* @media only screen and (max-aspect-ratio: 1/1) {
+  body {
+    background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 3vw,
+        #f9f9f9 3vw,
+        #f9f9f9 3.25vw
+      ),
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 3vw,
+        #f9f9f9 3vw,
+        #f9f9f9 3.25vw
+      );
+    background-size: 6vw 6vw;
+    width: 100%;
+    height: auto;
+  }
+} */
+
+/* ----- font/ text-sizing ----- */
+body,
+h4,
+h5,
+input,
+textarea {
+  font-family: "Metrophobic", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "DM Serif Display", serif;
+}
+textarea {
+  font-family: "Arial";
+}
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 45px;
+}
+h2 {
+  font-size: clamp(30px, 3vw, 44px);
+}
+h3 {
+  font-size: clamp(26px, 4vw, 40px);
+}
+h4 {
+  font-size: clamp(20px, 2.5vw, 32px);
+}
+h5 {
+  font-size: clamp(18px, 2.1vw, 26px);
+}
+p,
+a {
+  font-size: clamp(15px, 2vw, 18px);
+}
+p {
+  line-height: 2;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+/* ----- inner container ----- */
+.inner-container {
+  /* outline: 2px solid pink; */
+  margin: 60px auto;
 }
+
+/* ----- button ----- */
 button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  cursor: pointer;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* ----- icon ----- */
+.icon {
+  transition: all 0.3s ease;
+}
+.icon:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+.icon-disabled {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* ----- test-container ----- */
+.test-container {
+  width: 100%;
+  height: 120vh;
+  background-color: lightgray;
+  margin-block: 50px;
+}
+
+/* ----- bottom shadow ----- */
+.shadow {
+  box-shadow: 0 4px 2px -2px rgb(175, 175, 175, 0.5);
+}
+
+/* ----- media queries ----- */
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 40px;
   }
-  a:hover {
-    color: #747bff;
+}
+@media only screen and (max-aspect-ratio: 10/8) {
+  .btn:hover {
+    transform: none;
   }
-  button {
-    background-color: #f9f9f9;
+}
+@media only screen and (max-width: 700px) {
+  p {
+    line-height: 1.7;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  .inner-container {
+    margin: 40px auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .inner-container {
+    margin: 30px auto;
+  }
+}
+@media only screen and (max-width: 400px) {
+  p {
+    line-height: 1.5;
   }
 }

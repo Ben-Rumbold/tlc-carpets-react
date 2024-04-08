@@ -1,0 +1,37 @@
+.down-btn {
+  rotate: 180deg;
+  margin-inline: auto;
+  position: absolute;
+  top: -85px;
+  left: 0;
+  right: 0;
+  width: 45px;
+  opacity: 0.7;
+  transition: scale 0.3s ease, opacity 0.3s ease-in-out;
+}
+.fade-out {
+  opacity: 0;
+}
+.down-btn:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+  .down-btn {
+    top: -80px;
+    width: 40px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .down-btn {
+    top: -60px;
+    width: 35px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .down-btn {
+    top: -45px;
+    width: 30px;
+  }
+}

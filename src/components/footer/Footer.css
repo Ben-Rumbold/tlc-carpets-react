@@ -1,0 +1,12 @@
+footer {
+  background: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0 -4px 2px -2px rgb(175, 175, 175, 0.5);
+}
+
+footer img {
+  width: clamp(50px, 10vw, 80px);
+}

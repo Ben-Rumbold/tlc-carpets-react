@@ -1,0 +1,33 @@
+.lower-nav-container {
+  /* outline: 2px solid pink; */
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.lower-nav-button {
+  background: white;
+  min-width: 90px;
+  padding: 10px;
+  border: 1.5px solid black;
+  border-radius: none;
+  transition: all 0.3s ease;
+}
+.lower-nav-button:hover {
+  color: white;
+  background: black;
+}
+
+@media only screen and (max-width: 1000px) {
+  .lower-nav-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .lower-nav-container {
+    width: 80%;
+  }
+}

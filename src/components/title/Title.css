@@ -1,0 +1,16 @@
+.title-container {
+  text-align: center;
+}
+.title-container h2 {
+  padding-bottom: 10px;
+}
+.title-container p {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+  .title-container {
+    width: 90%;
+    margin-inline: auto;
+  }
+}

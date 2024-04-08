@@ -1,0 +1,37 @@
+.navbar-wide-container {
+  display: flex;
+  align-items: center;
+  gap: 4vw;
+}
+.current-page {
+  font-weight: 700;
+  font-style: italic;
+}
+.not-current-page {
+  position: relative;
+}
+.not-current-page::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  transition: width 0.3s ease-in-out;
+}
+.nav-scrolled::after {
+  background-color: black;
+}
+.nav-not-scrolled::after {
+  background-color: white;
+}
+.not-current-page:hover::after {
+  width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar-wide-container {
+    display: none;
+  }
+}

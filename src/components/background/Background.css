@@ -1,0 +1,41 @@
+.background {
+  background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 20px,
+      #f9f9f9 20px,
+      #f9f9f9 21px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 20px,
+      #f9f9f9 20px,
+      #f9f9f9 21px
+    );
+  background-size: 40px 40px;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-aspect-ratio: 1/1) {
+  .background {
+    background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 3vw,
+        #f9f9f9 3vw,
+        #f9f9f9 3.25vw
+      ),
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 3vw,
+        #f9f9f9 3vw,
+        #f9f9f9 3.25vw
+      );
+    background-size: 6vw 6vw;
+    width: 100%;
+    height: auto;
+  }
+}
