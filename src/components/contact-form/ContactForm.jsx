@@ -26,7 +26,7 @@ const ContactForm = ({ children, formName }) => {
       <form
         name={formName}
         method="post"
-        data-netlify="true"
+        netlify
         className={`contact-form inner-container ${isSent && "sent"}`}
         onSubmit={handleSubmit}
       >
