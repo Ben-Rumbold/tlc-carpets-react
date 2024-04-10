@@ -36,6 +36,7 @@
 }
 .home-media-container-one .home-media-img-two-container img {
   height: 110%;
+  object-fit: cover;
 }
 .home-media-container-one .home-media-video-container {
   position: absolute;

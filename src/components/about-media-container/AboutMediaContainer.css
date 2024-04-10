@@ -100,8 +100,9 @@
 }
 @media only screen and (max-width: 1009px) {
   .draw-img-container {
+    bottom: -92px;
     left: 19vw;
-    width: 20%;
+    width: 21%;
   }
 }
 @media only screen and (max-width: 860px) {
@@ -111,9 +112,33 @@
     width: 22%;
   }
 }
-@media only screen and (max-width: 724px) {
+@media only screen and (max-width: 820px) {
+  .draw-img-container {
+    left: 21vw;
+    width: 23%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .draw-img-container {
+    left: 20.5vw;
+    width: 24%;
+  }
+}
+@media only screen and (max-width: 738px) {
   .draw-img-container {
     left: 21.5vw;
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 704px) {
+  .draw-img-container {
+    left: 25.5vw;
+    width: 26%;
+  }
+  .draw-arrow {
+    margin-left: 0%;
+    margin-bottom: -8px;
+    rotate: -30deg;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -124,82 +149,113 @@
     top: 0;
   }
   .draw-img-container {
-    bottom: -68px;
-    left: 23vw;
-    width: 22%;
+    bottom: -70px;
+    left: 22vw;
+    width: 23%;
   }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 684px) {
   .draw-img-container {
-    left: 22.5vw;
-  }
-}
-@media only screen and (max-width: 603px) {
-  .draw-img-container {
-    bottom: -68px;
     left: 25vw;
     width: 24%;
   }
-  .draw-arrow {
-    margin-left: 10%;
-    rotate: -25deg;
-  }
 }
-@media only screen and (max-width: 542px) {
+@media only screen and (max-width: 614px) {
   .draw-img-container {
     left: 26vw;
     width: 25%;
   }
 }
-@media only screen and (max-width: 518px) {
+@media only screen and (max-width: 586px) {
   .draw-img-container {
     left: 30.5vw;
     width: 27%;
   }
-  .draw-arrow {
-    margin-left: 0;
-    margin-bottom: -8px;
+}
+@media only screen and (max-width: 545px) {
+  .draw-img-container {
+    left: 30vw;
+    width: 29%;
+  }
+}
+@media only screen and (max-width: 502px) {
+  .draw-img-container {
+    left: 31vw;
+    width: 31%;
   }
 }
 @media only screen and (max-width: 500px) {
   .draw-img-container {
-    bottom: -58px;
-    width: 28%;
+    bottom: -59px;
+    width: 32%;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .draw-img-container {
+    left: 34.5vw;
+    width: 33.5%;
+  }
+  .draw-arrow {
+    margin-left: -15%;
+    margin-bottom: -12px;
   }
 }
 @media only screen and (max-width: 450px) {
   .draw-img-container {
-    left: 34vw;
-    width: 29%;
+    bottom: -60px;
+    left: 32.5vw;
   }
 }
-@media only screen and (max-width: 394px) {
+@media only screen and (max-width: 446px) {
   .draw-img-container {
-    left: 35vw;
-    width: 32%;
+    left: 34vw;
   }
+}
+@media only screen and (max-width: 429px) {
+  .draw-img-container {
+    left: 38.5vw;
+    width: 35.5%;
+  }
+}
+@media only screen and (max-width: 382px) {
+  .draw-img-container {
+    left: 45.5vw;
+    width: 41%;
+  }
+  .draw-arrow {
+    margin-left: -23%;
+    margin-bottom: -18px;
+    rotate: -40deg;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .draw-img-container {
+    left: 47vw;
+    width: 44%;
+  }
+}
+@media only screen and (max-width: 314px) {
+  .draw-img-container {
+    display: none;
+  }
+}
+
+/* @media only screen and (max-width: 394px) {
   .draw-arrow {
     margin-left: -10px;
     margin-bottom: -11px;
     rotate: -30deg;
   }
-}
-@media only screen and (max-width: 379px) {
-  .draw-img-container {
-    left: 39vw;
-    width: 98px;
-  }
+} */
+/* @media only screen and (max-width: 379px) {
   .draw-arrow {
     margin-bottom: -9px;
   }
-}
-@media only screen and (max-width: 337px) {
-  .draw-img-container {
-    left: 47vw;
-  }
+} */
+/* @media only screen and (max-width: 337px) {
   .draw-arrow {
     margin-left: -25px;
     margin-bottom: -17px;
     rotate: -40deg;
   }
-}
+} */
