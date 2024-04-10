@@ -20,7 +20,7 @@ const ContactDetailContainer = () => {
       />
       <ContactDetail
         icon={InstagramIcon}
-        link="https://abbottsinteriors.co.uk/"
+        link="https://www.instagram.com/abbottsinteriors/?hl=en-gb"
         text="TLC Instagram"
         target="_blank"
       />

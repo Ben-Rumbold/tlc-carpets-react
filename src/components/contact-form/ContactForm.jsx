@@ -10,16 +10,17 @@ const ContactForm = ({ children, formName }) => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
+    setFormData((prevFormData) => ({
+      ...prevFormData,
       [name]: value,
-    });
+    }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSent(!isSent);
-    console.log("form submitted");
+    console.log(`${formName} submitted`);
+    console.log("Form data:", formData);
   };
 
   return (

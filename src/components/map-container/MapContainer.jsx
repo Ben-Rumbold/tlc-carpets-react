@@ -11,10 +11,6 @@ const MapContainer = () => {
     zoom: 12,
   });
 
-  useEffect(() => {
-    console.log("Mapbox Access Token:", process.env.VITE_API_KEY);
-  }, []);
-
   return (
     <FadeIn>
       <div className="map-container inner-container">

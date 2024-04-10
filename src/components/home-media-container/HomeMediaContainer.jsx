@@ -36,7 +36,7 @@ const HomeMediaContainer = ({ imgOne, imgTwo, video, imgBackup, label }) => {
         </div>
         <div className="home-media-video-container home-media-item-container">
           {isVideoLoaded && !prefersReducedMotion ? (
-            <video autoPlay loop muted>
+            <video autoPlay playsInline loop muted>
               <source src={video} type="video/mp4" />
             </video>
           ) : (

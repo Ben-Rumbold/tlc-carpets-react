@@ -7,6 +7,7 @@ const FormInput = ({ name, type, placeholder, classLabel }) => {
       type={type}
       placeholder={placeholder}
       className={`form-input ${classLabel}`}
+      autoComplete="on"
     />
   );
 };

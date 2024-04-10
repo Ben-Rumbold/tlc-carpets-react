@@ -103,14 +103,14 @@ h3 {
   font-size: clamp(26px, 4vw, 40px);
 }
 h4 {
-  font-size: clamp(20px, 2.5vw, 32px);
+  font-size: clamp(21px, 2.5vw, 32px);
 }
 h5 {
-  font-size: clamp(18px, 2.1vw, 26px);
+  font-size: clamp(19px, 2.1vw, 26px);
 }
 p,
 a {
-  font-size: clamp(15px, 2vw, 18px);
+  font-size: clamp(17px, 2vw, 18px);
 }
 p {
   line-height: 2;

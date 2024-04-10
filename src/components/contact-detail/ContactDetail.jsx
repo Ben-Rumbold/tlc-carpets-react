@@ -3,12 +3,7 @@ import "./ContactDetail.css";
 import FadeIn from "../../effects/FadeIn";
 
 const ContactDetail = ({ icon, link, target, text }) => {
-  // const [isExpanded, setIsExpanded] = useState(true);
   const [isHovered, setIsHovered] = useState(true);
-
-  // const toggleExpanded = () => {
-  //   setIsExpanded(!isExpanded);
-  // };
 
   const handleMouseEnter = () => {
     setIsHovered(false);
@@ -30,17 +25,12 @@ const ContactDetail = ({ icon, link, target, text }) => {
     <FadeIn>
       <div
         className="contact-detail-wrapper"
-        // onMouseEnter={() => setIsExpanded(false)}
-        // onMouseLeave={() => setIsExpanded(true)}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
       >
-        <div
-          className={`contact-detail ${isHovered ? "show" : ""}`}
-          // onClick={toggleExpanded}
-        >
+        <div className={`contact-detail ${isHovered ? "show" : ""}`}>
           <img src={icon} alt={icon} />
         </div>
         <div className={`contact-detail-expanded ${isHovered ? "show" : ""}`}>

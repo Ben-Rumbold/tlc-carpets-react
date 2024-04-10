@@ -10,6 +10,15 @@ const PortfolioPopUp = ({
   selectedCategory,
   imageId,
 }) => {
+  useEffect(() => {
+    // Set overflow to hidden when component mounts
+    document.body.style.overflow = "hidden";
+    // Revert overflow to its original value when component unmounts
+    return () => {
+      document.body.style.overflow = "auto"; // or 'visible' or 'scroll', depending on the desired behavior
+    };
+  }, []); // Run this effect only once when component mounts
+
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const handleMouseMove = (e) => {
     const boundingBox = e.currentTarget.getBoundingClientRect();

@@ -7,6 +7,7 @@ const FormTextArea = ({ name, rows, placeholder }) => {
       rows={rows}
       placeholder={placeholder}
       className="form-text-area"
+      autoComplete="on"
     />
   );
 };
