@@ -22,7 +22,7 @@ const Contact = () => {
           text="From a general inquiry to booking a free measure, get in touch via phone, email, instagram, or the contact form below."
         />
         <ContactDetailContainer />
-        <ContactForm formName="contact form">
+        <ContactForm formName="tlc-contact-form">
           <h5>Get In Touch</h5>
           <FormInput name="name" type="text" placeholder="Your Name" />
           <FormInput name="email" type="email" placeholder="Email Address" />

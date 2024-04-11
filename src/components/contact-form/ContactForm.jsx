@@ -29,6 +29,7 @@ const ContactForm = ({ children, formName }) => {
         name={formName}
         method="POST"
         data-netlify="true"
+        netlify-honeypot="bot-field"
         className={`contact-form inner-container ${isSent && "sent"}`}
         onSubmit={handleSubmit}
       >

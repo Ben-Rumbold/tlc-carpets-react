@@ -30,7 +30,7 @@ const Prices = () => {
             Watch this space!
           </p>
         </Text>
-        <ContactForm formName="signup form">
+        <ContactForm formName="tlc-signup-form">
           <h5>
             Sign up to recieve updates on &copy;The Flooring Price Estimator
           </h5>

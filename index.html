@@ -24,7 +24,34 @@
     />
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- tlc-contact-form -->
+      <form
+        name="tlc-contact-form"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        hidden
+      >
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <input type="text" name="phone" />
+        <input type="text" name="address" />
+        <input type="text" name="town-city" />
+        <input type="text" name="postcode" />
+        <textarea name="comment"></textarea>
+      </form>
+
+      <!-- tlc-signup-form -->
+      <form
+        name="tlc-signup-form"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        hidden
+      >
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+      </form>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
