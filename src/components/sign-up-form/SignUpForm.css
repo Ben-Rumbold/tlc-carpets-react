@@ -1,4 +1,4 @@
-.contact-form {
+.sign-up-form {
   width: 80%;
   max-width: 690px;
   background-image: linear-gradient(
@@ -12,42 +12,38 @@
   justify-content: center;
   gap: 20px;
   opacity: 0;
-  /* outline: 3px solid rgba(255, 0, 0); */
+  /* outline: 3px solid rgba(0, 60, 255); */
   transition: opacity 1s ease-in-out, outline 0.3s ease;
 }
-.fade-in .contact-form {
+.fade-in .sign-up-form {
   opacity: 1;
 }
-.contact-form.sent {
+.sign-up-form.sent {
   outline: 3px solid rgba(0, 160, 0, 0.7);
 }
 
-.contact-form h5 {
+.sign-up-form h5 {
   margin: 0px 10px 10px 10px;
   text-align: center;
 }
 
-.contact-form input {
+.sign-up-form input {
   border: 0;
   width: 100%;
   padding: 10px 15px;
 }
-.contact-form input.custom-width-bigger {
-  width: calc(65% - 10px);
+.sign-up-form input.custom-width-half-left,
+.sign-up-form input.custom-width-half-right {
+  width: calc(50% - 15px);
 }
-.contact-form input.custom-width-smaller {
-  width: calc(35% - 10px);
+.sign-up-form input.custom-width-half-left {
+  margin-right: 5px;
 }
-
-textarea {
-  border: 0;
-  outline: 0;
-  width: 100%;
-  padding: 10px 15px;
-  resize: vertical;
+.sign-up-form input.custom-width-half-right {
+  margin-left: 5px;
 }
 
-.contact-form button {
+.sign-up-form button {
   background-color: rgb(40, 40, 40);
   color: white;
   border: 0;
@@ -57,32 +53,30 @@ textarea {
   font-size: clamp(17px, 1.8vw, 21px);
   transition: all 0.3s ease-in-out;
 }
-.contact-form.sent button:hover {
+.sign-up-form.sent button:hover {
   cursor: not-allowed;
 }
 
 @media only screen and (max-width: 700px) {
-  .contact-form {
+  .sign-up-form {
     padding: 20px;
     gap: 15px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .contact-form input {
+  .sign-up-form input {
     padding: 10px;
   }
-  .contact-form input.custom-width-bigger,
-  .contact-form input.custom-width-smaller {
+  .sign-up-form input.custom-width-half-left,
+  .sign-up-form input.custom-width-half-right {
     width: 100%;
-  }
-  textarea {
-    padding: 10px;
+    margin: 0;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .contact-form {
+  .sign-up-form {
     width: 90%;
     padding: 15px;
     gap: 12px;

@@ -6,8 +6,7 @@ import OuterContainer from "../../components/outer-container/OuterContainer";
 import Foooter from "../../components/footer/Footer";
 import Title from "../../components/title/Title";
 import Text from "../../components/text/Text";
-import ContactForm from "../../components/contact-form/ContactForm";
-import FormInput from "../../components/form-input/FormInput";
+import SignUpForm from "../../components/sign-up-form/SignUpForm";
 
 const Prices = () => {
   return (
@@ -30,24 +29,7 @@ const Prices = () => {
             Watch this space!
           </p>
         </Text>
-        <ContactForm formName="tlc-signup-form">
-          <h5>
-            Sign up to recieve updates on &copy;The Flooring Price Estimator
-          </h5>
-          <FormInput
-            name="name"
-            type="text"
-            placeholder="Your Name"
-            classLabel="custom-width-half-left"
-          />
-          <FormInput
-            name="email"
-            type="email"
-            placeholder="Email Adress"
-            classLabel="custom-width-half-right"
-          />
-          <button type="submit">Sign Up</button>
-        </ContactForm>
+        <SignUpForm />
       </OuterContainer>
       <Foooter />
     </>
