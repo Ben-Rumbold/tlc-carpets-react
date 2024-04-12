@@ -7,7 +7,7 @@ import InstagramIcon from "/assets/icons/instagram.svg";
 
 const ContactDetailContainer = () => {
   return (
-    <div className="contact-detail-container inner-container">
+    <div className="contact-detail-container">
       <ContactDetail
         icon={PhoneIcon}
         link="tel:07766116573"

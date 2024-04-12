@@ -7,18 +7,30 @@ const ContactDetail = ({ icon, link, target, text }) => {
 
   const handleMouseEnter = () => {
     setIsHovered(false);
+    console.log(
+      `mouseEntered, isHovered should be false, is actually: ${isHovered}`
+    );
   };
 
   const handleMouseLeave = () => {
     setIsHovered(true);
+    console.log(
+      `mouseLeave, isHovered should be true, is actually: ${isHovered}`
+    );
   };
 
   const handleTouchStart = () => {
     setIsHovered(false);
+    console.log(
+      `touchStart, isHovered should be false, is actually: ${isHovered}`
+    );
   };
 
   const handleTouchEnd = () => {
     setIsHovered(true);
+    console.log(
+      `touchEnter, isHovered should be true, is actually: ${isHovered}`
+    );
   };
 
   return (

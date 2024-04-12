@@ -24,8 +24,8 @@ const Prices = () => {
             <b> Floor</b>
             <i>Tech</i>Solutions (a subsidary of <b>Bold</b>
             <i>Code</i>Studios) are working diligently on a software solution to
-            make available to flooring customers a quote witin seconds. Saving
-            time, money and effort for customer, contractor and buiness alike.
+            make available to flooring customers a quote within seconds. Saving
+            time, money and effort for customer, contractor and business alike.
             Watch this space!
           </p>
         </Text>
