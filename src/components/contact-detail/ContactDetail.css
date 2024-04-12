@@ -1,5 +1,5 @@
 :root {
-  --contact-detail-width: clamp(40px, 8vw, 80px); /* Global scope */
+  --contact-detail-width: clamp(40px, 8vw, 80px);
 }
 
 .contact-detail-wrapper {
@@ -77,6 +77,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .contact-detail-expanded.show {
+    width: calc(var(--contact-detail-width) * 2.5);
+  }
   .contact-detail-wrapper {
     scale: 1.5;
   }
