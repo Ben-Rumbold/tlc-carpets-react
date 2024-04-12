@@ -7,30 +7,10 @@ const ContactDetail = ({ icon, link, target, text }) => {
 
   const handleMouseEnter = () => {
     setIsHovered(false);
-    console.log(
-      `mouseEntered, isHovered should be false, is actually: ${isHovered}`
-    );
   };
 
   const handleMouseLeave = () => {
     setIsHovered(true);
-    console.log(
-      `mouseLeave, isHovered should be true, is actually: ${isHovered}`
-    );
-  };
-
-  const handleTouchStart = () => {
-    setIsHovered(false);
-    console.log(
-      `touchStart, isHovered should be false, is actually: ${isHovered}`
-    );
-  };
-
-  const handleTouchEnd = () => {
-    setIsHovered(true);
-    console.log(
-      `touchEnter, isHovered should be true, is actually: ${isHovered}`
-    );
   };
 
   return (
@@ -39,10 +19,11 @@ const ContactDetail = ({ icon, link, target, text }) => {
         className="contact-detail-wrapper"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        onTouchStart={handleTouchStart}
-        onTouchEnd={handleTouchEnd}
       >
-        <div className={`contact-detail ${isHovered ? "show" : ""}`}>
+        <div
+          className={`contact-detail ${isHovered ? "show" : ""}`}
+          onClick={() => setIsHovered(!isHovered)}
+        >
           <img src={icon} alt={icon} />
         </div>
         <div className={`contact-detail-expanded ${isHovered ? "show" : ""}`}>
