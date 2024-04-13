@@ -32,7 +32,7 @@
 }
 
 .faq-qa-answer-container {
-  height: 0;
+  max-height: 0;
   overflow: hidden;
   padding: 0;
   margin-bottom: 0;
@@ -40,7 +40,7 @@
 }
 
 .faq-qa-answer-container.show-answer {
-  height: auto;
+  max-height: 1000px;
   padding: 5px 0;
   margin-bottom: 5px;
 }
